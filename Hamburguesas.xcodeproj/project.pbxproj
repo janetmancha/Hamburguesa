@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0036251C7523D5000117E2 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0036241C7523D5000117E2 /* Datos.swift */; };
 		0E17ED181C73CFE100D22CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17ED171C73CFE100D22CEA /* AppDelegate.swift */; };
 		0E17ED1A1C73CFE100D22CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17ED191C73CFE100D22CEA /* ViewController.swift */; };
 		0E17ED1D1C73CFE100D22CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E17ED1B1C73CFE100D22CEA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0036241C7523D5000117E2 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		0E17ED141C73CFE100D22CEA /* Hamburguesas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamburguesas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E17ED171C73CFE100D22CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E17ED191C73CFE100D22CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,7 @@
 		0E17ED1E1C73CFE100D22CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E17ED211C73CFE100D22CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E17ED231C73CFE100D22CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E17ED291C73D0EC00D22CEA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,18 @@
 				0E17ED1E1C73CFE100D22CEA /* Assets.xcassets */,
 				0E17ED201C73CFE100D22CEA /* LaunchScreen.storyboard */,
 				0E17ED231C73CFE100D22CEA /* Info.plist */,
+				0E17ED2A1C73D0FC00D22CEA /* playground */,
+				0E0036241C7523D5000117E2 /* Datos.swift */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		0E17ED2A1C73D0FC00D22CEA /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				0E17ED291C73D0EC00D22CEA /* MyPlayground.playground */,
+			);
+			name = playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			files = (
 				0E17ED1A1C73CFE100D22CEA /* ViewController.swift in Sources */,
 				0E17ED181C73CFE100D22CEA /* AppDelegate.swift in Sources */,
+				0E0036251C7523D5000117E2 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +298,7 @@
 				0E17ED281C73CFE100D22CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
